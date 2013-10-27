@@ -1,15 +1,11 @@
 package HelloScala
 
-/**
- * @author ${user.name}
- */
-object App {
-  
-  def foo(x : Array[String]) = x.foldLeft("")((a,b) => a + b)
-  
-  def main(args : Array[String]) {
-    println( "Hello World!" )
-    println("concat arguments = " + foo(args))
-  }
+object Lad extends App {
+  println("FOOOO")
+}
 
+class TestClass {
+  def double(x : Int) : Int = {
+    x * 2;
+  }
 }
